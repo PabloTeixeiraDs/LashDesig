@@ -998,3 +998,21 @@ main {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste específico para aproximar a imagem do texto no card "Volume Charme" */
+.plan-card:nth-child(1) .plan-features {
+  margin-bottom: 1rem; /* Reduz a margem inferior do texto para aproximar a imagem */
+}
+/* Garantir que a .card-body (que contém a imagem) tenha margem superior mínima para evitar sobreposição */
+.plan-card .card-body {
+  margin-top: 0.5rem; /* Pequeno espaço superior para respiro, ajustável se necessário */
+  margin-bottom: 0.5rem; /* Pequeno espaço inferior para o botão, mantendo equilíbrio */
+}
