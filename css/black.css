@@ -1246,3 +1246,21 @@ nav ul li a::after {
     height: 260px; /* Altura fixa para igualar as fotos dos cards em telas de notebook/desktop no modo escuro */
   }
 }
+
+.footer-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 0.5rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.footer-instagram i {
+  font-size: 1.2rem;
+  color: #e1306c; /* cor típica do Instagram */
+}
+
+.footer-instagram:hover {
+  color: var(--primary-color);
+}
