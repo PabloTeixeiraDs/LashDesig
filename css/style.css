@@ -1007,6 +1007,14 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.card-caption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  text-align: center;
+  opacity: 0.9;
+}
+
 @media (min-width: 769px) {
   .card-image {
     height: 260px; /* Altura fixa para igualar as fotos dos cards em telas de notebook/desktop */
