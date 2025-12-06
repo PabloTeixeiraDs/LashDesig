@@ -91,7 +91,7 @@ p, span, li {
 
 /* Ajustes para o menu mobile */
 .menu-btn span {
-  background-color: var(--dark-color) !important;
+  background-color: #ff7ea8 !important; /* Rosa mais vivo para o menu hambúrguer no modo escuro */
 }
 
 /* Ajustes para o mapa */
@@ -1231,4 +1231,10 @@ nav ul li a::after {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 769px) {
+  .card-image {
+    height: 260px; /* Altura fixa para igualar as fotos dos cards em telas de notebook/desktop no modo escuro */
+  }
 }

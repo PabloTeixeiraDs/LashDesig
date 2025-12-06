@@ -1007,6 +1007,12 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width: 769px) {
+  .card-image {
+    height: 260px; /* Altura fixa para igualar as fotos dos cards em telas de notebook/desktop */
+  }
+}
+
 /* Ajuste específico para aproximar a imagem do texto no card "Volume Charme" */
 .plan-card:nth-child(1) .plan-features {
   margin-bottom: 1rem; /* Reduz a margem inferior do texto para aproximar a imagem */
