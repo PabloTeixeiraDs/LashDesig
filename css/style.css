@@ -1010,7 +1010,7 @@ main {
 .card-caption {
   margin-top: 0.5rem;
   font-size: 0.85rem;
-  color: var(--text-color);
+  color: #000000 !important;
   text-align: center;
   opacity: 0.9;
 }
