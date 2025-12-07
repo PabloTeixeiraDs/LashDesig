@@ -991,6 +991,14 @@ main {
   .section-title {
     font-size: 1.8rem;
   }
+
+  /* Ajuste apenas na menor tela para alinhar largura de PERFIL PROFISSIONAL com CUIDADOS ESSENCIAIS... */
+  #sobre .section-title {
+    font-size: 1.7rem;
+    max-width: 12ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 1150px) {
